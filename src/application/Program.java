@@ -18,7 +18,20 @@ public class Program {
 		
 		List<Product> list = new ArrayList<>();
 		
+		System.out.print("Enter the number of products: ");
+		int n = sc.nextInt();
 		
+		for (int i = 1; i<=n; i++) {
+			System.out.println("Product #" + i + " data:");
+			System.out.print("Common, used or imported (c/u/i)? ");
+			char type = sc.next().charAt(0);
+			System.out.print("Name: ");
+			sc.nextLine();
+			String name = sc.nextLine();
+			System.out.print("Price: ");
+			double price = sc.nextDouble();
+			
+		}
 	}
 
 }
