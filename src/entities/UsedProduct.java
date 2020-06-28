@@ -13,6 +13,14 @@ public class UsedProduct extends Product {
 		super(name, price);
 		this.manufactureDate = manufactureDate;
 	}
+
+	public Date getManufactureDate() {
+		return manufactureDate;
+	}
+
+	public void setManufactureDate(Date manufactureDate) {
+		this.manufactureDate = manufactureDate;
+	}
 	
-	
+		
 }
